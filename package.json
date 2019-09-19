@@ -1,0 +1,22 @@
+{
+  "name": "storybook-bug-demo-a11y-at-story-level",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:donaldpipowitch/storybook-bug-demo-a11y-at-story-level.git",
+  "author": "Donald Pipowitch <pipo@senaeh.de>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/addon-a11y": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "babel-loader": "^8.0.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
