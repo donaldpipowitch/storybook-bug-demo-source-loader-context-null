@@ -1,22 +1,45 @@
 {
-  "name": "storybook-bug-demo-a11y-at-story-level",
-  "version": "1.0.0",
+  "name": "demo",
+  "version": "0.0.0",
   "private": true,
-  "repository": "git@github.com:donaldpipowitch/storybook-bug-demo-a11y-at-story-level.git",
-  "author": "Donald Pipowitch <pipo@senaeh.de>",
-  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 58413"
+  },
   "dependencies": {
-    "react": "^16.9.0"
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "react": "^16.9.0",
+    "react-dom": "npm:@hot-loader/react-dom@^16.9.0",
+    "react-hot-loader": "^4.12.14"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
     "@storybook/addon-a11y": "^5.2.1",
-    "@storybook/addons": "^5.2.1",
+    "@storybook/addon-backgrounds": "^5.2.1",
+    "@storybook/addon-docs": "^5.2.1",
     "@storybook/react": "^5.2.1",
-    "babel-loader": "^8.0.6"
-  },
-  "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "@storybook/source-loader": "^5.2.1",
+    "@storybook/theming": "^5.2.1",
+    "@types/node": "^12.7.7",
+    "@types/storybook__react": "^4.0.2",
+    "@types/webpack": "^4.39.1",
+    "@types/webpack-env": "^1.14.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "mini-html-webpack-plugin": "^2.0.0",
+    "prettier": "^1.18.2",
+    "raw-loader": "^3.1.0",
+    "react-docgen-typescript-loader": "^3.3.0",
+    "typescript": "^3.6.3",
+    "url-loader": "^2.1.0",
+    "webpack-nano": "^0.8.1",
+    "webpack-plugin-serve": "^0.12.1"
   }
 }

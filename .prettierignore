@@ -1,0 +1,5 @@
+dist/
+storybook-build/
+node_modules/
+coverage/
+index.html
